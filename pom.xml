@@ -23,6 +23,12 @@
         <module>zipkin</module>
         <module>zipkinclient</module>
         <module>configserver</module>
+        <module>configclient</module>
+        <module>emall-cofig</module>
+        <module>configserver</module>
+        <module>configserver</module>
+        <module>configserver</module>
+        <module>configservers</module>
     </modules>
 
     <parent>
