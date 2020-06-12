@@ -2,16 +2,17 @@ server:
   port: 8888
 spring:
   application:
-    name: config-servers
+    name: configservers
   cloud:
     config:
       server:
         git:
-          uri:  https://github.com/1262718381/aispringclouds.git
+          uri:  https://github.com/1262718381/aispringcloud.git
           searchPaths: config
           username: 1262718381@qq.com
           password: wu145743932
       label: master
+
 eureka:
   client:
     serviceUrl:
